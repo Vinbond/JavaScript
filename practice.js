@@ -1,5 +1,5 @@
-//========>>>QUETIONS============>>>>>>>>>>>
-//1itaret 1 TO 100, mupltiple 3 print "FUZZ" and multiple of 5 print "BUZZ", if bothe multiples print "FUZZBUZZ"
+//========>>>question============>>>>>>>>>>>
+//1iterate 1 TO 100, multiple 3 print "FUZZ" and multiple of 5 print "BUZZ", if both multiples print "FUZZBUZZ"
 // let x=0;
 // for(let x=0;x<=100;x++){
 //     if(x/3){
@@ -9,7 +9,7 @@
 //         document.writeln("BUZZ");
 //     }
 // }
-//create a buuton use the event mouseover when hover on button the baody color shoul change use only js
+//create a button use the event mouseover when hover on button the baody color shu change use only js
 // let btn=document.createElement("button");
 // btn.innerText="Click me!!!!";
 // let bb=document.querySelector("body");
@@ -40,20 +40,26 @@
 
 // });
 
-var num=parseInt(prompt("First Number :"))
-var num2=parseInt(prompt("Second Number :"))
-var sum=parseInt(prompt("Operator"))
-if (sum =="+"){
-    console.log(num+num2);
-}elseif(sum =="-")
-{
-    console.log(num-num2);
-}elseif(sum =="/")
-{
-    console.log(num/num2)
-}elseif(sum=="*")
-{
-    console.log(num*num2)
-}
-console.log("Hello Wel comeeeeeee")
+// var num=parseInt(prompt("First Number :"))
+// var num2=parseInt(prompt("Second Number :"))
+// var sum=parseInt(prompt("Operator"))
+// if (sum =="+"){
+//     console.log(num+num2);
+// }elseif(sum =="-")
+// {
+//     console.log(num-num2);
+// }elseif(sum =="/")
+// {
+//     console.log(num/num2)
+// }elseif(sum=="*")
+// {
+//     console.log(num*num2)
+// }
+// console.log("Hello Wel come")
+// var x=[1,4,5,0,34]
+//x=x=parseInt(prompt("Enter the array"))
+// console.log(x)
+
+
+
  
