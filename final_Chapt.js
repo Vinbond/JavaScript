@@ -19,12 +19,12 @@ let el=document.querySelector("#txt");
 const getFacts=async ()=>{
     let response=await fetch(url);
     let data=await response.json()
-    // console.log(data[0].text)
+    console.log(data[0].text)
     // console.log(data[1].text)
     // console.log(data[2].text)
     // console.log(data[3].text)
     // console.log(data[4].text)
-    el.innerText=data[0].text
+    // el.innerText=data[0].text
 
 
 }

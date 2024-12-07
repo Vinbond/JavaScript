@@ -59,6 +59,21 @@
 // var x=[1,4,5,0,34]
 //x=x=parseInt(prompt("Enter the array"))
 // console.log(x)
+// const URL="https://api.thecatapi.com/v1/images/search?limit=10";
+// let i=document.querySelector("img");
+// const call_api=async ()=>{
+//     let dt= await fetch(URL);
+//     // let main_Data=(await dt).json();
+//     let main_Data=await dt.json()
+//         //  i.innerText=main_Data;
+//         console.log(main_Data)
+//         // i.src="https://cdn2.thecatapi.com/images/3eo.jpg"
+
+// }
+// call_api()
+// console.log(i)
+
+
 
 
 
