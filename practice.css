@@ -1,5 +1,51 @@
-#div{
+/* #div{
     width:500px;
     height:500px;
     background-color: cadetblue;
-}
+} */
+ /****************************Calculator******************/
+ #main{
+    width: 300px;
+    height: 400px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    
+ }
+ #second{
+   display: flex;
+ }
+ .first{
+    width: 140px;
+    height: 50px;
+    border: 2px solid black;
+    margin-left:2.5px;
+    margin-top: 5px;
+ }
+ /*OP buttons*/
+ #operator{
+   width: 250px;
+   height: 300px;
+   background-color: black;
+   /* border: 2px solid red; */
+   justify-content: center;
+   justify-items: center;
+   margin-left: 20px;
+   margin-top: 10px;
+   
+
+ } 
+ button{
+   font-style: normal;
+   font-size: xx-large;
+ }
+ .op{
+   width: 50px;
+   height: 40px;
+   background-color: white;
+   margin-top: 7px;
+   margin-left: 7px;
+   border: none;
+  
+   
+
+ }

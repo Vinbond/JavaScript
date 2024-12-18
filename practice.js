@@ -72,6 +72,67 @@
 // }
 // call_api()
 // console.log(i)
+//@@@@@@@@@@@@@@@@@@Calculator@@@@@@@@@@@@@@@@@
+
+// function kal(){
+//     let d=document.getElementById("in").value;
+//     let f=document.getElementById("ind").value;
+//     let e=document.querySelector("h1")
+//     // let l=document.querySelector("h1")
+//      let num1=parseInt(d);
+//      let num2=parseInt(f)
+//      let result=num1+num2;
+//     e.innerText=result;
+//     e.innerText=result;
+//     console.log(typeof(d))
+//     console.log(typeof(f))
+//    }
+function plus(){
+    let d=document.getElementById("in").value;
+    let f=document.getElementById("ind").value;
+    let e=document.querySelector("h1")
+    let num1=parseInt(d);
+     let num2=parseInt(f)
+     let result=num1+num2;
+    e.innerText=result;
+    e.innerText=result;
+    console.log(typeof(num1))
+    console.log(typeof(num2))
+}
+function minus(){
+    let d=document.getElementById("in").value;
+    let f=document.getElementById("ind").value;
+    let e=document.querySelector("h1")
+    let num1=parseInt(d);
+     let num2=parseInt(f)
+     let result=num1-num2;
+    e.innerText=result;
+    e.innerText=result;
+
+}
+function multi(){
+    let d=document.getElementById("in").value;
+    let f=document.getElementById("ind").value;
+    let e=document.querySelector("h1")
+    let num1=parseInt(d);
+     let num2=parseInt(f)
+     let result=num1*num2;
+    e.innerText=result;
+    e.innerText=result;
+
+}
+function devid(){
+    let d=document.getElementById("in").value;
+    let f=document.getElementById("ind").value;
+    let e=document.querySelector("h1")
+    let num1=parseInt(d);
+     let num2=parseInt(f)
+     let result=num1/num2;
+    e.innerText=result;
+    e.innerText=result;
+
+}
+
 
 
 
